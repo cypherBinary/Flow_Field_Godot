@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://be6ltrnssuo8i"]
+
+[ext_resource type="Script" uid="uid://dh0q0p0b8kbfh" path="res://world.gd" id="1_f3sb7"]
+
+[node name="World" type="Node2D" unique_id=1946622505]
+script = ExtResource("1_f3sb7")
+use_trails = false
+flow_field = true
+cell_size = 30.0
+noise_density = 30.0
+shift_speed = 5.0
+feromone_field = false
+feromone_cell_size = 20.0
+particle_count = 10000
+max_velocity = 3.0
+max_acceleration = 30.0
+particle_radius = 1.0
+particle_color = Color(2.117753e-06, 0.85192496, 0.8262441, 1)

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://be6ltrnssuo8i"]
+
+[ext_resource type="Script" uid="uid://dh0q0p0b8kbfh" path="res://world.gd" id="1_f3sb7"]
+
+[node name="World" type="Node2D" unique_id=1946622505]
+script = ExtResource("1_f3sb7")
+cell_size = null
+debug_vector_size = -1.0
